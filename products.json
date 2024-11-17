@@ -1,0 +1,89 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "2023 Ferrari SF90 Stradale Huge $683k+ MSRP! Only 1K Miles! Rare Azzurro Dino Paint! Loaded W/ Carbon",
+      "price": "$589,800",
+      "image": "https://www.chicagomotorcars.com/imagetag/11522/main/f/Used-2023-Ferrari-SF90-Stradale-Huge-683k+-MSRP!-Only-1K-Miles!-Rare-Azzurro-Dino-Paint!-Loaded-W-Carbon-1726077270.jpg",
+      "link": "https://www.chicagomotorcars.com/2023-ferrari-sf90-stradale-huge-683k-msrp-only-1k-miles-rare-azzurro-dino-paint-loaded-w-carbon-c-11522/",
+      "alt": "2023 Blue Ferrari SF90 Stradale"
+    },
+    { 
+      "id": 2,
+      "name": "2022 McLaren 765LT Spider Huge MSRP! 1 of 1 MSO Celerium Blue! Anrky Wheels! Only 1600 Miles!",
+      "price": "$584,800", 
+      "image": "https://www.chicagomotorcars.com/imagetag/10336/main/f/Used-2022-McLaren-765LT-Spider-Huge-MSRP!-1-of-1-MSO-Celerium-Blue!-Anrky-Wheels!-Only-1600-Miles!-1713903462.jpg",
+      "link": "https://www.chicagomotorcars.com/2022-mclaren-765lt-spider-huge-msrp-1-of-1-mso-celerium-blue-anrky-wheels-only-1600-miles-c-10336/"
+    },
+    {
+      "id": 3,
+      "name": "2023 Ferrari SF90 Stradale Only 1K Miles! Full PPF! RARE Signal Green! Carbon Fiber Interior Package!",
+      "price": "$569,800",
+      "image": "https://www.chicagomotorcars.com/imagetag/11166/main/f/Used-2023-Ferrari-SF90-Stradale-Only-1K-Miles!-Full-PPF!-RARE-Signal-Green!-Carbon-Fiber-Interior-Package!-1697234988.jpg",
+      "link": "https://www.chicagomotorcars.com/2023-ferrari-sf90-stradale-only-1k-miles-full-ppf-rare-signal-green-carbon-fiber-interior-package-c-11166/"
+    },
+    {
+      "id": 4,
+      "name": "2024 Porsche 911 GT3 RS Weissach Package! Delivery Miles! PCCB! Front Lift! BOSE! Full PPF!",
+      "price": "$459,800",
+      "image": "https://www.chicagomotorcars.com/imagetag/11775/main/f/Used-2024-Porsche-911-GT3-RS-Weissach-Package!-Delivery-Miles!-PCCB!-Front-Lift!-BOSE!-Full-PPF!-1723922275.jpg",
+      "link": "https://www.chicagomotorcars.com/2024-porsche-911-gt3-rs-weissach-package-delivery-miles-pccb-front-lift-bose-full-ppf-c-11775/"
+    },
+    {
+      "id": 5,
+      "name": "2017 Audi R8 Quattro V10 Plus AMS Alpha 12 Twin Turbo Package! Full PPF! Dynamite Red!",
+      "price": "$214,800",
+      "image": "https://www.chicagomotorcars.com/imagetag/11689/main/f/Used-2017-Audi-R8-Quattro-V10-Plus-AMS-Alpha-12-Twin-Turbo-Package!-Full-PPF!-Dynamite-Red!-1714776095.jpg",
+      "link": "https://www.chicagomotorcars.com/2017-audi-r8-quattro-v10-plus-ams-alpha-12-twin-turbo-package-full-ppf-dynamite-red-c-11689/"
+    },
+    {
+      "id": 6,
+      "name": "1998 Nissan Skyline R34 GTT Stunning Build! RHD! Full GT-R Body Kit! Carbon Fiber Hood!",
+      "price": "$69,800",
+      "image": "https://www.chicagomotorcars.com/imagetag/11754/main/l/Used-1998-Nissan-Skyline-R34-GTT-Stunning-Build!-RHD!-Full-GT-R-Body-Kit!-Carbon-Fiber-Hood!-1718116773.jpg",
+      "link": "https://www.chicagomotorcars.com/1998-nissan-skyline-r34-gtt-stunning-build-rhd-full-gt-r-body-kit-carbon-fiber-hood-c-11754/"
+    },
+    {
+      "id": 7,
+      "name": "2017 McLaren 570GT Stunning Spec! Carbon Ceramics! Sport Exhaust! Carbon Interior Trim!",
+      "price": "$142,800",
+      "image": "https://www.chicagomotorcars.com/imagetag/12005/main/l/Used-2017-McLaren-570GT-Stunning-Spec!-Carbon-Ceramics!-Sport-Exhaust!-Carbon-Interior-Trim!-1728077240.jpg",
+      "link": "https://www.chicagomotorcars.com/2017-mclaren-570gt-stunning-spec-carbon-ceramics-sport-exhaust-carbon-interior-trim-c-12005/"
+    },
+    {
+      "id": 8,
+      "name": "2021 Lamborghini Urus SUV RARE Viola Pasifae! Akrapovic Titanium Exhaust! MSRP $282K+!",
+      "price": "$244,800",
+      "image": "https://www.chicagomotorcars.com/imagetag/11563/main/l/Used-2021-Lamborghini-Urus-SUV-RARE-Viola-Pasifae!-Akrapovic-Titanium-Exhaust!-MSRP-282K+!-1716999715.jpg",
+      "link": "https://www.chicagomotorcars.com/2021-lamborghini-urus-suv-rare-viola-pasifae-akrapovic-titanium-exhaust-msrp-282k-c-11563/"
+    },
+    {
+      "id": 9,
+      "name": "2023 Lamborghini Huracan STO HUGE $435k+ Sticker! Full Body PPF! Sport Seats! Carbon Fiber! Loaded!",
+      "price": "$399,800",
+      "image": "https://www.chicagomotorcars.com/imagetag/12111/main/l/Used-2023-Lamborghini-Huracan-STO-HUGE-435k+-Sticker!-Full-Body-PPF!-Sport-Seats!-Carbon-Fiber!-Loaded!-1731354649.jpg",
+      "link": "https://www.chicagomotorcars.com/2023-lamborghini-huracan-sto-huge-435k-sticker-full-body-ppf-sport-seats-carbon-fiber-loaded-c-12111/"
+    },
+    {
+      "id": 10,
+      "name": "2024 Lamborghini Revuelto Viola Pasifae! 760 Miles! Full PPF! $727K+ Sticker! Tons of Carbon Fiber!",
+      "price": "CALL FOR PRICE",
+      "image": "https://www.chicagomotorcars.com/imagetag/12116/main/l/Used-2024-Lamborghini-Revuelto-Viola-Pasifae!-760-Miles!-Full-PPF!-727K+-Sticker!-Tons-of-Carbon-Fiber!-1731367674.jpg",
+      "link": "https://www.chicagomotorcars.com/2024-lamborghini-revuelto-viola-pasifae-760-miles-full-ppf-727k-sticker-tons-of-carbon-fiber-c-12116/"
+    },
+    {
+      "id": 11,
+      "name": "2025 Land Rover Range Rover P530 LWB Full Widebody Kit! Forgiato Wheels! Meridian Sound! 3rd Row Seating!",
+      "price": "$234,800",
+      "image": "https://www.chicagomotorcars.com/imagetag/12006/main/l/Used-2025-Land-Rover-Range-Rover-P530-LWB-Full-Widebody-Kit!-Forgiato-Wheels!-Meridian-Sound!-3rd-Row-Seating!-1729176222.jpg",
+      "link": "https://www.chicagomotorcars.com/2025-land-rover-range-rover-p530-lwb-full-widebody-kit-forgiato-wheels-meridian-sound-3rd-row-seating-c-12006/"
+    },
+    {
+      "id": 12,
+      "name": "2021 McLaren 765LT Rare Nardo Orange Paint! Vossen HF-2 Wheels! MSO Carbon Door Sills! Loaded!",
+      "price": "$409,800",
+      "image": "https://www.chicagomotorcars.com/imagetag/12105/main/l/Used-2021-McLaren-765LT-Rare-Nardo-Orange-Paint!-Vossen-HF-2-Wheels!-MSO-Carbon-Door-Sills!-Loaded!-1730846683.jpg",
+      "link": "https://www.chicagomotorcars.com/2021-mclaren-765lt-rare-nardo-orange-paint-vossen-hf-2-wheels-mso-carbon-door-sills-loaded-c-12105/"
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif, Arial;
+}
+
+body {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+.about-bold {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 1.025rem;
+}
+
+/*////////// Navigation //////////*/
+
+.nav-bar {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px dotted rgb(50, 46, 46);
+}
+
+.logo {
+  color: white;
+  font-style: italic;
+  font-size: 2rem;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.nav-right {
+  display: flex;
+  gap: 15px;
+  padding-right: 20px;
+}
+
+.nav-right li {
+  color: white;
+  list-style-type: none;
+}
+
+.nav-right a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.nav-right a:hover {
+  text-decoration-color: white;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+/*////////// Home Page //////////*/
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+}
+
+.home-title {
+  position: absolute;
+  top: 25%;
+  font-size: 2rem;
+}
+
+.video-container {
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  z-index: 10;
+  position: absolute;
+  top: 65%;
+}
+
+.homepage-btn {
+  background-color: rgb(212, 15, 15);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  height: 40px;
+  width: 310px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  z-index: 10;
+  margin: 10px;
+}
+
+.homepage-btn:hover {
+  border-radius: 60px 0px 60px 0px;
+  background-color: white;
+  color: rgb(212, 15, 15);
+}
+
+.homepage-inventory {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 50vh;
+  background-color: rgb(50, 46, 46);
+}
+
+#our-inventory-title {
+  padding: 25px;
+  font-size: 2rem;
+}
+
+.homepage-inventory-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.homepage-inventory-container img {
+  padding: 10px;
+}
+
+#about-us-title {
+  text-align: center;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.about-us {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.about-us-info li {
+  list-style-type: none;
+  padding-left: 8px;
+}
+.about-us-info {
+  width: 65rem;
+}
+
+.about-us-info h2 {
+  font-size: 2rem;
+}
+
+.about-us-info h3 {
+  font-size: 1.25rem;
+  padding: 10px;
+}
+
+.about-us-info p {
+  font-size: 1rem;
+  padding-left: 8px;
+}
+
+/*////////// Inventory Page //////////*/
+
+.inventory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-container {
+  display: grid;
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  width: fit-content;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.product {
+  align-items: center;
+  background-color: rgb(50, 46, 46);
+  border-radius: 5px;
+  display: grid;
+  height: 400px;
+  justify-items: center;
+  max-width: 350px;
+  text-align: center;
+}
+
+.product p {
+  font-size: 14px;
+}
+
+.car-info {
+  width: 300px;
+}
+
+.details-btn {
+  background-color: rgb(212, 15, 15);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  height: 40px;
+  width: 310px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.details-btn:hover {
+  border-radius: 60px 0px 60px 0px;
+  background-color: white;
+  color: rgb(212, 15, 15);
+}
+
+/*////////// Contact Page //////////*/
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.contact-container {
+  background-color: rgb(50, 46, 46);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 700px;
+  width: 700px;
+  height: 400px;
+}
+
+.contact-container button {
+  background-color: rgb(212, 15, 15);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  height: 40px;
+  width: 310px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.contact-container button:hover {
+  border-radius: 60px 0px 60px 0px;
+  background-color: white;
+  color: rgb(212, 15, 15);
+}
+
+.input-field input,
+.input-field textarea {
+  width: 30rem;
+}
+
+.input-field.valid input {
+  border-bottom: 1px solid green;
+  box-shadow: 0 1px 0 0 green;
+}
+
+.input-field.invalid input {
+  border-bottom: 1px solid red;
+  box-shadow: 0 1px 0 0 red;
+}
+
+.input-field .error-message {
+  color: red;
+  font-size: 12px;
+  height: 12px;;
+}
+
+
+/*////////// Footer //////////*/
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 80px;
+  border-top: 1px dotted rgb(50, 46, 46);
+}
+
+.footer-right {
+  margin-right: 20px;
+}
+
+.footer-right i {
+  font-size: 24px;
+  padding: 0px 5px;
+}
+
+.footer-right a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.footer-right a:hover {
+  color: rgb(212, 15, 15);
+}
+
+.copyright {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+/*///////// Media Queries ////////// */
+
+
+/* Tablet media query */
+@media (max-width: 768px) {  
+  .logo {
+    font-size: 1.5rem;
+    padding-left: 20px;
+  }
+  
+  .nav-right {
+    padding-right: 20px;
+  }
+
+  .video-container {
+    height: auto;
+  }
+
+  .homepage-btn-container {
+    top: 50%;
+  }
+
+  .homepage-btn {
+    width: 250px;
+    height: 30px;
+  }
+
+  .about-us-info {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .product-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 90%;
+  }
+
+  .contact-container {
+    width: 90%;
+    height: auto;
+  }
+
+  .footer-right {
+    text-align: center;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}
+
+/* Mobile media query */
+@media (max-width: 425px) {
+
+  .home-title {
+    font-size: 1rem;
+  }
+  
+  .logo {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .nav-right {
+   font-size: 1rem;
+  }
+
+  .video-container {
+    height: auto;
+  }
+
+  .homepage-btn-container {
+    top: 55%;
+    gap: 10px;
+  }
+
+  .homepage-btn {
+    width: 220px;
+  }
+
+  .about-us-info {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .product-container {
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 50px auto;
+  }
+
+  .contact-container {
+    width: 100%;
+  }
+
+  .copyright {
+    font-size: 10px;
+  }
+}
